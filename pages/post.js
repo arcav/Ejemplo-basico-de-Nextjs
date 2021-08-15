@@ -3,7 +3,7 @@ import Layout from "../components/MyLayout";
 
 const Page = () => {
     const router = useRouter();
-
+        
     return(
         <Layout>
             <h1>{router.query.title}</h1>
